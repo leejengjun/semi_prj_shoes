@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+p.delivery_exchange_return > a:hover{
+	font-weight: bold;
+	font-size:16pt;
+	cursor: pointer;
+}

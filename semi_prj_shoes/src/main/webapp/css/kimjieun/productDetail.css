@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+	div#container{
+		/* border: solid 1px gray; */
+		margin: 0 auto 150px;
+		padding: 2% 9% 0 10%;
+	}
+
+	
+	div#ordertitle{
+		padding: 0 18px 30px 10px;
+		font-size: 24pt;
+		font-weight: bold; 
+	}
+	
+	div#title, button#title{
+		padding: 10px;
+		font-size: 16pt;
+		font-weight: bold;
+	}
+	
+	div.contents, .totalPrice, .infobox, .deliverybox{
+		padding: 5%;
+		border-bottom: solid 1px gray;
+	}
+	
+/* 	div.base{
+		position: relative;
+	    margin: 0;
+	    padding: 0;
+	    border: 0;
+	    background: #fff;
+	}
+	 */
+	 
+	div#orderLeft{
+		border-right: solid 1px #c1c1c1;		
+	}
+	
+	div.contents, div.prd{
+		vertical-align: middle;
+	}
+	
+	div#prd > ul {
+		margin: 0px 3px 0px 0px;
+	}
+	
+	div#thumbnail{
+		padding: 0;
+	}
+	
+   .prdDescription{
+   		display:inline-block;
+   }
+   
+   span.star { 
+	   color: #0099cc;
+       font-weight: bold;
+       font-size: 13pt;
+   }
+   
+   ul{
+   		margin: 0px;
+   		padding: 0px;
+   }
+   
+   div#orderleft> table{
+   	margin: 30px; 
+   }
+   
+   div#orderleft> table > tr > th, td {
+   	padding: 0 0 13px 0;
+   }
+   
+  
+    th, td {
+   	vertical-align: top;
+   	
+   	
+   }
+   
+   span.b_error{
+   	font-size: 9.3pt;
+   	color: #0099cc;
+   
+   }
+   
+   p.emailmsg, span#pwdcaution{
+   	padding: 3px 0 0 0;
+   	font-size: 9.3pt;
+   	color:#d7d9da;
+   }
+   
+   input#bmail2{
+   	margin: 10px 0 0 0;
+   	padding: 3px 0 0 0;
+   }
+   
+   
+   div.totalPrice{
+   	margin: 0px;
+   	padding: 0px;
+   }
+   
+   div.totalPrice > table {
+   	margin: 15px;
+   }
+   
+  
+   div.totalPrice > table > tbody > tr> th {
+   	padding: 5px 80px 5px 0;
+   }
+   
+   div.totalPrice > table > tbody > tr> td {
+    padding: 5px 0 5px 0;
+   	text-align: right;
+   }
+   
+
+
+
+	div.contents{
+		display:table;
+	}
+	
+	div.contents > span {
+		display: table-cell;
+		text-align: left;
+		vertical-align: middle;
+	}
+   
+   

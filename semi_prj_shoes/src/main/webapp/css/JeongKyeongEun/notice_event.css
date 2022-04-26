@@ -1,0 +1,306 @@
+@charset "UTF-8";
+
+
+ol, ul {
+	list-style: none;
+}
+
+
+#body > div > aside {
+    font-size: 11px;
+    color: #979797;
+    box-sizing: border-box;
+    min-height: inherit;
+    width: 205px;
+    float: left;
+    margin-top: 12px;
+}
+
+#body > div > aside > nav {
+    font-size: 11px;
+    color: #979797;
+    box-sizing: border-box;
+    width: 180px;
+    margin-top: 43px;
+}
+
+#body > div > aside > nav > h3 {
+	font-weight: bolder;
+	color: black;
+}
+
+#body > div > aside > nav > ul {
+    font-size: 20px;
+    color: #979797;
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 30px;
+    border-top: none;
+    margin-top: 20px;
+}
+#body > div > aside > nav > ul > li > a {
+    font-size: 15px;
+    list-style: none;
+    line-height: 26px;
+    font-weight: bold;
+    color: #808080;
+    padding-left: 26px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+#body > div > main {
+    box-sizing: border-box;
+    margin-top: 50px;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 21px;
+    font-weight: bold;
+    color: #646464;
+    padding-left: 25px;
+}
+
+#body > div > main > h2 {
+	font-weight: bolder;
+	color: black;
+	margin-top: 43px;
+	margin-bottom: 0;
+}
+
+#body > div > main > div.notice.margin-top {
+	padding-right: 80px;
+}
+#body > div > main > div.search-form.first.align-right {
+    font-size: 11px;
+    color: #979797;
+    align-self: flex-end;
+    display: inline-block;
+    float: right;
+    margin-bottom: 10px;
+}
+
+#body > div > main > div.search-form.first.align-right > form > fieldset > input.btn.btn-search {
+	border: solid 1px gray;
+	border-radius: inherit;
+	font-size: 10pt;
+	padding: 0 10px;
+	height: 22px;
+	background-color: #dfdfdf;
+}
+
+#body > div > main > div.search-form.first.align-right > h3 {
+    display: none;
+}
+
+#body > div > main > div.search-form.first.align-right > form {
+    font-size: 11px;
+    color: #979797;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: inline-block;	
+}
+
+#body > div > main > div.search-form.first.align-right > form > fieldset {
+    font-size: 11px;
+    color: #979797;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+}
+
+#body > div > main > div.search-form.first.align-right > form > fieldset > legend {
+    display: none;
+}
+
+#body > div > main > div.search-form.first.align-right > form > fieldset > label:nth-child(2) {
+    display: none;
+}
+
+#body > div > main > div.search-form.first.align-right > form > fieldset > select {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 22px;
+    border: 1px solid gray;
+    vertical-align: middle;
+}
+
+#body > div > main > div.search-form.first.align-right > form > fieldset > label:nth-child(4) {
+    font-size: 11px;
+    color: #979797;
+    box-sizing: border-box;
+    display: none;
+    vertical-align: middle;
+}
+
+#body > div > main > div.search-form.first.align-right > form > fieldset > input[type=text]:nth-child(5) {
+    box-sizing: border-box;
+    padding: 0;
+    vertical-align: middle;
+    width: 150px;
+    height: 22px;
+    border: 1px solid gray;
+}
+
+#body > div > main > div.search-form.first.align-right > form > fieldset > input.btn.btn-search {
+	margin-right: 130px;
+}
+
+#body > div > main > div.write > a {
+	margin-right: 130px;
+}
+
+#body > div > main > div.notice.margin-top {
+    font-size: 11px;
+    color: #979797;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    width: 80%;
+}
+
+#body > div > main > div.notice.margin-top > h3 {
+	display: none;
+}
+
+#body > div > main > div.notice.margin-top > table {
+    font-size: 11px;
+    color: #000000;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-collapse: separate;
+    border: 0 none;
+    border-spacing: 0px;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+#body > div > main > div.notice.margin-top > table > thead {
+    font-size: 11px;
+    color: #000000;
+    border-collapse: separate;
+    border-spacing: 0px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+#body > div > main > div.notice.margin-top > table > thead > tr {
+    font-size: 14px;
+    color: #000000;
+    border-collapse: separate;
+    border-spacing: 0px;
+    box-sizing: border-box;
+    display: table-row;
+    height: 35px;
+    vertical-align: middle;
+}
+
+#body > div > main > div.notice.margin-top > table > thead > tr > th {
+    border-collapse: separate;
+    border-spacing: 0px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-bottom: 1px solid #e9e9e9;
+    background: #f5f5f5;
+    width: 60px;
+    font-weight: bold;
+}
+
+#body > div > main > div.notice.margin-top > table > thead > tr > th:nth-child(3) {
+	text-align: right;
+	padding-right: 6px;
+}
+
+#body > div > main > div.notice.margin-top > table > tbody {
+    font-size: 11px;
+    color: #000000;
+    border-collapse: separate;
+    border-spacing: 0px;
+    box-sizing: border-box;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#body > div > main > div.notice.margin-top > table > tbody > tr {
+    font-family: 돋움, Arial, sans-serif;
+    font-size: 11px;
+    color: #000000;
+    border-collapse: separate;
+    border-spacing: 0px;
+    box-sizing: border-box;
+    display: table-row;
+    height: 30px;
+    font-weight: bold;
+}
+
+#body > div > main > div.notice.margin-top > table > tbody > tr > td {
+    font-size: 11px;
+    color: #000000;
+    border-collapse: separate;
+    border-spacing: 0px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    display: table-cell;
+    text-align: center;
+    border-bottom: 1px solid #e9e9e9;	
+    vertical-align: middle;
+}
+
+#body > div > main > div.notice.margin-top > table > tbody > tr > td.title.indent.text-align-left > a {
+    font-size: 11px;
+    color: #000000;
+    border-collapse: separate;
+    border-spacing: 0px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    display: table-cell;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-left: 10px;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: middle;
+}
+#body > div > main > div.notice.margin-top > table > tbody > tr > td:nth-child(3), td:nth-child(4) {
+    margin: 10;
+    padding: 10;
+    font-weight: normal;
+    display: table-cell;
+    text-align: right;
+    border-bottom: 1px solid #e9e9e9;
+    vertical-align: middle;
+}
+
+#body > div > main > nav > ul {
+	margin-top: 30px;
+}
+
+#body > div > main > div.write > a {
+	border: solid 1px gray;
+    border-radius: inherit;
+    font-size: 10pt;
+    padding: 0 10px;
+    height: 22px;
+    background-color: #dfdfdf;
+    float: right;
+    margin-top: 8px;
+	
+}

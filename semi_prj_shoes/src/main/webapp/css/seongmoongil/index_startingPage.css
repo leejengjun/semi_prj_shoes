@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidebar a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181 !important;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.openbtn {
+  font-size: 25px;
+  font-family: 'Black Han Sans', sans-serif;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  font-weitgh: bold;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar a {font-size: 20px}
+  .sidebar .closebtn {
+						  font-size: 40px;
+						  top: 15px;
+						  right: 35px;
+						  }
+}
+
+
+body > div.container > div > div.row.figure-caption.text-center >div {
+	padding-top: 50px;
+	padding-bottom: 15px;
+	border: 1px solid #999;
+}
+
+body > div.container-fluid > div > div.row.figure-caption.text-center.mt-5 a {
+	text-decoration: underline;
+	color: gray;
+}
+
+#new_product_go {
+	text-decoration-line: none;
+	color: gray;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+#new_item {
+	margin-top: 50px;
+}
+
+a.bady-brand {
+	margin-right: 20pt;
+	
+}
+
+#first {
+
+	margin-left: 10px;
+	margin-right: -10px;
+}
+
+#second {
+	margin: auto 0;
+}
+
+#foorter > div.row {
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	
+}
+
+#first > p {
+	color: gray;
+}
+
+#second > p {
+	color: gray;
+}
+
+#first > p > a{
+	color: white;
+	font-weight: bold;
+	font-size: 13pt;
+}
+
+#second > p > a{
+	color: white;
+	font-weight: bold;
+	font-size: 13pt;
+}

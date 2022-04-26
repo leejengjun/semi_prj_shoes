@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+
+
+*{ padding: 0; margin: 0; } 
+li{ list-style: none; } 
+button{ cursor: pointer; } 
+
+
+body{ background-color: #ffffff; }
+
+.memberbox{
+    width: 780px; height: 550px;
+    margin: 0 auto; 
+}
+.memberbox h2{
+    width: 100%; 
+    height: 100px; 
+    line-height: 400px;
+    text-align: center; 
+    font-size: 40px;
+    font-weight: bolder;
+}
+.memberbox form{
+    width: 100%; height: 1000px;
+    background-color: #fff;
+    border: 5px solid #e5e5e5;
+    padding: 160px; 
+    box-sizing: border-box;
+}
+.memberbox fieldset{
+    border: none; 
+}
+.memberbox legend{
+    
+    position: absolute; left: -999em;
+
+}
+
+.memberbox input{
+    width: 100%; 
+    height: 50px;
+    margin-bottom: 25px; 
+    border: none; 
+    background-color: #ededed;
+    padding: 0 20px; 
+    box-sizing: border-box; 
+}
+
+.memberbox ul{
+    width: 100%;
+    text-align: right; 
+    margin-bottom: 40px;
+}
+.memberbox li{
+    display: inline-block;
+    height: 10px; 
+    line-height: 20px;
+}
+
+.memberbox a{
+    
+    color: #333; 
+    font-size: 14px;
+    position: relative; 
+    top: -25px; 
+}
+
+.memberbox button{
+    display: block;
+    width: 220px; height: 50px;
+    margin: 0 auto;
+    border: none;
+    background-color: #808080;
+    color: #fff; font-size: 14px; font-weight: bold;
+    position: relative; top: -40px;
+}
+
+.member_box_gift {
+    margin-top: -40px;
+    margin-bottom: 25px;
+    width: 100%; height: 80px;
+    padding: 0 20px;
+    background-color: #f4f4f4;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.loginfail {
+    font-size: 14px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.login_return {
+   float: left;
+   position: relative; 
+   top: 100px;
+   
+}

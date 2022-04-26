@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+span.buttons > input#soldoutex, lable#soldoutex{
+	position:relative;
+	vertical-align: middle;
+} 
+
+div.productlist{
+	border: none;
+}
+
+div.color_chip ul li a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.1);
+}

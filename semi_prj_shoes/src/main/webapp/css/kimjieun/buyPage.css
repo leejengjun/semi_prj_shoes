@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+	div#container{
+		/* border: solid 1px gray; */
+		margin: 0 auto 150px;
+		padding: 2% 9% 0 10%;
+	}
+	
+	div#ordertitle{
+		padding: 0 18px 30px 10px;
+		font-size: 24pt;
+		font-weight: bold; 
+	}
+	
+	div#title, button#title{
+		padding: 10px;
+		font-size: 16pt;
+		font-weight: bold;
+	}
+	
+	div.contents, .totalPrice, .infobox, .deliverybox{
+		padding: 5%;
+		border-bottom: solid 1px gray;
+	}
+	
+/* 	div.base{
+		position: relative;
+	    margin: 0;
+	    padding: 0;
+	    border: 0;
+	    background: #fff;
+	}
+	 */
+	 
+	div#orderLeft{
+		border-right: solid 1px #c1c1c1;		
+	}
+	
+	div.contents, div.prd{
+		vertical-align: middle;
+	}
+	
+	div#prd > ul {
+		margin: 0px 3px 0px 0px;
+	}
+	
+	div#thumbnail{
+		padding: 0;
+	}
+	
+   .prdDescription{
+   		display:inline-block;
+   }
+   
+   span.star { 
+	   color: #0099cc;
+       font-weight: bold;
+       font-size: 13pt;
+   }
+   
+   ul{
+   		margin: 0px;
+   		padding: 0px;
+   }
+   
+   div#orderleft> table{
+   	margin: 30px; 
+   }
+   
+   div#orderleft> table > tr > th, td {
+   	padding: 0 0 13px 0;
+   }
+   
+  
+    th, td {
+   	vertical-align: top;
+   	
+   	
+   }
+   
+   span.b_error{
+   	font-size: 9.3pt;
+   	color: #0099cc;
+   
+   }
+   
+   p.emailmsg, span#pwdcaution{
+   	padding: 3px 0 0 0;
+   	font-size: 9.3pt;
+   	color:#d7d9da;
+   }
+   
+   input#bmail2{
+   	margin: 10px 0 0 0;
+   	padding: 3px 0 0 0;
+   }
+   
+   
+   div.totalPrice{
+   	margin: 0px;
+   	padding: 0px;
+   }
+   
+   div.totalPrice > table {
+   	margin: 15px;
+   }
+   
+  
+   div.totalPrice > table > tbody > tr> th {
+   	padding: 5px 80px 5px 0;
+   }
+   
+   div.totalPrice > table > tbody > tr> td {
+    padding: 5px 0 5px 0;
+   	text-align: right;
+   }
+   
+   
+   table{
+   	margin: 35px;
+   }
+   
+   
+   table > tbody > tr > th{
+   	padding: 0 15px 0 0;
+   }
+   
+   div#newsamecheck{
+   	margin: 20px 30px 0 30px;
+   }
+   
+   table#delivery_form > tbody > tr > td > ul > li.displaynone{
+   		list-style-type: none;
+   		padding : 3px 0 3px 0;
+   }
+   
+   
+   div.infobox{
+   	padding: 10px;
+   }
+   
+   
+   /* hover 작업 */
+	   .sideaccordion {
+	  background-color: #fff;
+	  color: #444;
+	  cursor: pointer;
+	  padding: 18px;
+	  width: 100%;
+	  border: none;
+	  text-align: left;
+	  outline: none;
+	  font-size: 15px;
+	  transition: 0.4s;
+	}
+	
+	.sideactive, .sideaccordion:hover {
+	  background-color: #fff;
+	}
+	
+	.sideaccordion:after {
+	  content: '\002B';
+	  color: #777;
+	  font-weight: bold;
+	  float: right;
+	  margin-left: 5px;
+	}
+	
+	.sideactive:after {
+	  content: "\2212";
+	}
+	
+	#b_box {
+	  padding: 0 18px;
+	  background-color: white;
+	  max-height: 0;
+	  overflow: hidden;
+	  transition: max-height 0.2s ease-out;
+	}
